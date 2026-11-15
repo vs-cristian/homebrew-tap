@@ -1,6 +1,6 @@
 cask "caskroom" do
-  version "0.2.2"
-  sha256 "a1d81b7358b1b86861ff514da1c7a23828870bc982bfe0529ba902a6d9ed3952"
+  version "0.2.3"
+  sha256 "41e8053b2d634dfa7152b4b73e3e6da2196ba7d3f27f832896783a8f43c48f6e"
 
   url "https://github.com/vs-cristian/caskroom/releases/download/v#{version}/Caskroom-#{version}.zip"
   name "Caskroom"
