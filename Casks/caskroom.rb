@@ -1,6 +1,6 @@
 cask "caskroom" do
-  version "0.1.0"
-  sha256 "6442228fa89a6cfaa00ab51b8ae0cd6d9a7a2be10ee4ce8bcb9521c695735883"
+  version "0.2.0"
+  sha256 "34c27bb222a1136ec9af91be595facac7dcbdebf4bfc4f4b5b50e6cafc9026ac"
 
   url "https://github.com/vs-cristian/caskroom/releases/download/v#{version}/Caskroom-#{version}.zip"
   name "Caskroom"
@@ -8,7 +8,7 @@ cask "caskroom" do
   homepage "https://github.com/vs-cristian/caskroom"
 
   depends_on arch: :arm64
-  depends_on macos: :tahoe
+  depends_on macos: :sequoia
 
   app "Caskroom.app"
 
